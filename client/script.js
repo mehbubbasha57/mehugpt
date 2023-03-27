@@ -120,23 +120,23 @@ form.addEventListener('keyup', (e) => {
 })
 
 // Get the button element
-const themeToggle = document.getElementById('theme-toggle');
+// const themeToggle = document.getElementById('theme-toggle');
 
-// Add event listener to the button
-themeToggle.addEventListener('click', () => {
-  // Get the body element
-  const body = document.body;
+// // Add event listener to the button
+// themeToggle.addEventListener('click', () => {
+//   // Get the body element
+//   const body = document.body;
 
-  // Check if the body has a class of 'dark'
-  if (body.classList.contains('dark')) {
-    // Remove the class 'dark'
-    body.classList.remove('dark');
-    // Set the background color to the light theme
-    body.style.backgroundColor = 'white';
-  } else {
-    // Add the class 'dark'
-    body.classList.add('dark');
-    // Set the background color to the dark theme
-    body.style.backgroundColor = 'black';
-  }
-});
+//   // Check if the body has a class of 'dark'
+//   if (body.classList.contains('dark')) {
+//     // Remove the class 'dark'
+//     body.classList.remove('dark');
+//     // Set the background color to the light theme
+//     body.style.backgroundColor = 'white';
+//   } else {
+//     // Add the class 'dark'
+//     body.classList.add('dark');
+//     // Set the background color to the dark theme
+//     body.style.backgroundColor = 'black';
+//   }
+// });
